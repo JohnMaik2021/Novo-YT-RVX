@@ -1,8 +1,8 @@
 enable-module-update = true # set this to false if you do not want to receive updates for the module
 parallel-jobs = 1
 
-[YouTube-RVX]
-app-name = "YouTubeRVX"
+[YouTube-Revanced]
+app-name = "YouTubeRVD"
 patches-source = "revanced/revanced-patches"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
