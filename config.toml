@@ -1,8 +1,28 @@
 enable-module-update = true # set this to false if you do not want to receive updates for the module
-patches-source = "revanced/revanced-patches"
 parallel-jobs = 1
 
-[RVX]
+[YouTube-RVX]
+app-name = "YouTubeRVX"
+patches-source = "revanced/revanced-patches"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+patcher-args = "-e 'Custom branding' -OcustomName='ReVanced eXtended' -e 'GmsCore support'"
+
+[YouTube-Morphe]
+app-name = "YoutubeMPE"
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[YouTube-ANDDEA]
+app-name = "YoutubeADA"
+patches-source = "anddea/revanced-patches"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
