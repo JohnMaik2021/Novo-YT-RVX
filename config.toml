@@ -1,14 +1,19 @@
-enable-module-update = true # set this to false if you do not want to receive updates for the module
+enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
+patches-source = "inotia00/revanced-patches"
+rv-brand = "ReVanced eXtended"
 parallel-jobs = 1
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
-[ReVanced-eXtended]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-patcher-args = "-e 'Custom branding' -OcustomName='ReVanced eXtended' -OcustomIcon=yt-resources -OpackageNameYouTube='yt.rvx.noname.exe' -e 'GmsCore support'"
-module-prop-name = "yt-rvx"
 
+[YouTube]
+build-mode = "both"                                                   
+excluded-patches = ""                                                 
+included-patches = "" 
+patcher-args = " -e 'GmsCore support' -OpackageNameYouTube='yt.rvx.noname.exe' "
+version = "auto"                                                      
+exclusive-patches = false                                             
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+module-prop-name = "yt-rvx"
