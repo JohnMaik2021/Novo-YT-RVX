@@ -9,6 +9,6 @@ parallel-jobs = 1
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-patcher-args = "-e 'Custom branding' -OcustomName='ReVanced eXtended' -OcustomIcon=yt-resources -OpackageNameYouTube='yt.rvx.noname.exe' -e 'GmsCore support'"
+patcher-args = "-e 'Custom branding' -OcustomName='ReVanced eXtended' -OcustomIcon=revanced -OpackageNameYouTube='yt.rvx.noname.exe' -e 'GmsCore support'"
 module-prop-name = "yt-rvx"
 
