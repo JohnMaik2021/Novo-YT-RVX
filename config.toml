@@ -4,26 +4,28 @@ parallel-jobs = 1
 [YouTube-Revanced]
 app-name = "YouTubeRVD"
 patches-source = "revanced/revanced-patches"
+cli-source = "revanced/revanced-cli"
 build-mode = "apk"
-rv-brand = "Morphe"
+rv-brand = "Youtube Revanced"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-patcher-args = "-e 'Custom branding' -OcustomName='ReVanced eXtended' -e 'GmsCore support'"
+patcher-args = "-e 'Custom branding'"
 
 [YouTube-Morphe]
-app-name = "YoutubeMPE"
+app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
-rv-brand = "ReVanced Extended"
+rv-brand = "Morphe"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [YouTube-ANDDEA]
-app-name = "YoutubeADA"
+app-name = "YouTube"
 patches-source = "anddea/revanced-patches"
+cli-source = "revanced/revanced-cli"
 rv-brand = "ANDDEA"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
