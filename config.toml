@@ -1,17 +1,6 @@
 enable-module-update = true # set this to false if you do not want to receive updates for the module
-patches-source = "inotia00/revanced-patches"
+patches-source = "revanced/revanced-patches"
 parallel-jobs = 1
-
-[branding]
-# Habilita o patch de custom branding
-enabled = true
-
-# Caminho para o ícone customizado
-icon = "src/main/resources/branding/yt-resources/xxxhdpi/ic_launcher.png"
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-
-# you can use rvmm-config-gen to generate a config
 
 [RVX]
 build-mode = "both"
