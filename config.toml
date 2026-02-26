@@ -1,6 +1,12 @@
 enable-module-update = true # set this to false if you do not want to receive updates for the module
 parallel-jobs = 1
 
+[branding]
+# Habilita o patch de custom branding
+enabled = true
+
+# Caminho para o ícone customizado
+icon = "src/main/resources/branding/yt-resources/xxxhdpi/ic_launcher.png"
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
@@ -11,4 +17,4 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-patcher-args = "-e 'Custom branding' -OcustomName='ReVanced eXtended' -OpackageNameYouTube='yt.rvx.noname.exe' -e 'GmsCore support'"
+patcher-args = "-e 'Custom branding' -OcustomName='ReVanced eXtended' -e 'GmsCore support'"
