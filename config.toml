@@ -1,16 +1,6 @@
 enable-module-update = true # set this to false if you do not want to receive updates for the module
 parallel-jobs = 1
 
-[YouTube-Revanced]
-app-name = "YouTubeRVD"
-patches-source = "revanced/revanced-patches"
-cli-source = "revanced/revanced-cli"
-build-mode = "apk"
-rv-brand = "Youtube Revanced"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-patcher-args = "-e 'Custom branding'"
 
 [YouTube-Morphe]
 app-name = "YouTube"
@@ -31,4 +21,4 @@ build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-patcher-args = "-e 'Custom branding' -OcustomName='ReVanced eXtended' -e 'GmsCore support'"
+patcher-args = "-e 'Custom branding' -OcustomIcon='MMT Green'"
