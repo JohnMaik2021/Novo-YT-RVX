@@ -1,6 +1,16 @@
 enable-module-update = true # set this to false if you do not want to receive updates for the module
 parallel-jobs = 1
 
+[YouTube-Revanced]
+app-name = "YouTube"
+patches-source = "inotia00/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+build-mode = "apk"
+rv-brand = "Youtube Revanced"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+patcher-args = "-e 'Custom branding'"
 
 [YouTube-Morphe]
 app-name = "YouTube"
@@ -15,7 +25,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 [YouTube-ANDDEA]
 app-name = "YouTube"
 patches-source = "anddea/revanced-patches"
-cli-source = "revanced/revanced-cli"
+cli-source = "inotia00/revanced-cli"
 rv-brand = "ANDDEA"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
