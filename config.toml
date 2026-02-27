@@ -3,6 +3,7 @@ parallel-jobs = 1
 
 [YouTube-Revanced]
 app-name = "YouTube"
+included-patches = "'Custom branding icon MMT'"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 build-mode = "apk"
@@ -14,6 +15,7 @@ patcher-args = "-e 'Custom branding'"
 
 [YouTube-Morphe]
 app-name = "YouTube"
+included-patches = "'Custom branding icon MMT Blue'"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
@@ -24,6 +26,8 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 
 [YouTube-ANDDEA]
 app-name = "YouTube"
+included-patches = "'Custom branding icon MMT Green'"
+included-patches = ["Custom branding name for YouTube"]
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ANDDEA"
